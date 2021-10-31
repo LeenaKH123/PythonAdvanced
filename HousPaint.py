@@ -10,3 +10,9 @@ class Paint:
         self.buckets = buckets
         self.color = color
 
+    def total_price(self):
+        if self.color == "white":
+            return self.buckets * 1.99
+        else:
+            return self.buckets * 2.19
+
