@@ -1,4 +1,6 @@
 # write a program that generates imaginary coordinates for a rectangle
+# what are the objects in the code? 
+#
 # generate random x1
 # generate random y1
 # x2 = x1+5
