@@ -8,13 +8,14 @@ class Point:
         if lowleft[0] < self.x < upright[0] \
             and lowleft[1] < self.y < upright[1]:
             print("Im in the rectangle")
-            return True
+            # return True
         else:
             print("Im not in the rectangle")
-            return False
+            # return False
 
     def distance_from_point(self, x, y):
-        return ((self.x - x)**2 + (self.y - y)**2) ** 0.5
+        # return ((self.x - x)**2 + (self.y - y)**2) ** 0.5
+        print (((self.x - x)**2 + (self.y - y)**2) ** 0.5)
 
 # class Point:
 #     def __init__(self, x, y):
@@ -24,5 +25,6 @@ class Point:
         
 
 point1 = Point(3, 4)
+point1.distance_from_point(3,3)
 point2 = Point(6, 7)
 # type(point1)
